@@ -2534,7 +2534,7 @@ spawn(function()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Không có gì mới đây là script test của Khoa<Color=/>"):Display()
     wait(.29)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Làm gì có youtube<Color=/>"):Display()
     wait(.36)
@@ -2659,8 +2659,8 @@ local Section = W:AddSection({
 
 
 W:AddLabel("PHÁT TRIỂN BỞI")
-W:AddLabel("Khoa SCRIPT")
-W:AddLabel("DiscordKhoa")
+W:AddLabel("Khoa SCRIPT sẽ còn nữa ;)")
+W:AddLabel("chỉ là script test thôi")
 local Section = W:AddSection({
     Name = "Status"
 })
