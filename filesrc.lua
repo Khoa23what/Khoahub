@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "Tao là Khoa"
+    local i = "Khoa"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "Tao là Khoa"
+        local i = "Khoa"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2536,24 +2536,24 @@ spawn(function()
     wait(.24)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Đăng ký kênh traubloxfruit để xem video mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Làm gì có youtube<Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Tao là Khoa", HidePremium = false, IntroText = "Tao là Khoa⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "Khoa", HidePremium = false, IntroText = "Khoa⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
 
 OrionLib:MakeNotification({
-    Name = "Tao là Khoa",
+    Name = "Khoa",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "Tao là Khoa",
+    Name = "Khoa",
     Content = "đợi hub load config rồi mới sài Mày",
     Image = "rbxassetid://8192162908",
     Time = 10
@@ -2651,7 +2651,7 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Tao là Khoa")
+W:AddLabel("Khoa")
 
 local Section = W:AddSection({
     Name = "Update"
@@ -2659,8 +2659,8 @@ local Section = W:AddSection({
 
 
 W:AddLabel("PHÁT TRIỂN BỞI")
-W:AddLabel("Tao là Khoa SCRIPT")
-W:AddLabel("DiscordTao là Khoa")
+W:AddLabel("Khoa SCRIPT")
+W:AddLabel("DiscordKhoa")
 local Section = W:AddSection({
     Name = "Status"
 })
@@ -8386,13 +8386,13 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "Tao là Khoa(Noitification)",
+                    Name = "Khoa(Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "Tao là Khoa(Noitification)",
+                    Name = "Khoa(Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
@@ -8561,7 +8561,7 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "Tao là Khoa BOT",
+                        Name = "Khoa BOT",
                         Content = "!!You Are Max Point!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
@@ -8710,7 +8710,7 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "Tao là Khoa",
+                Name = "Khoa",
                 Content = "You not have beli or fragment!",
                 Image = "rbxassetid://8192162908",
                 Time = 5
@@ -8871,7 +8871,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Tao là Khoa BOT",
+                            Name = "Khoa BOT",
                             Content = "Not Have Superhuman",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8884,7 +8884,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Tao là Khoa BOT",
+                            Name = "Khoa BOT",
                             Content = "Not Have Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8897,7 +8897,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Tao là Khoa BOT",
+                            Name = "Khoa BOT",
                             Content = "Not Have SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8910,7 +8910,7 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "Tao là Khoa BOT",
+                            Name = "Khoa BOT",
                             Content = "Not Have Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8921,7 +8921,7 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "Tao là Khoa BOT",
+                                    Name = "Khoa BOT",
                                     Content = "Not Have Enough Material",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
@@ -8933,7 +8933,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Tao là Khoa BOT",
+                            Name = "Khoa BOT",
                             Content = "You Not Have Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -11332,7 +11332,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "Tao là Khoa",
+                    Name = "Khoa",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11340,7 +11340,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Tao là Khoa",
+                    Name = "Khoa",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11348,7 +11348,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Tao là Khoa",
+                    Name = "Khoa",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11356,7 +11356,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Tao là Khoa",
+                    Name = "Khoa",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11369,7 +11369,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "Tao là Khoa",
+        Name = "Khoa",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://8192162908",
         Time = 5
@@ -11402,7 +11402,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Tao là Khoa",
+    Name = "Khoa",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://8192162908",
     Time = 5
