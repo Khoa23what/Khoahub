@@ -2536,7 +2536,7 @@ spawn(function()
     wait(.24)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Không có gì mới đây là script test của Khoa<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Đây là script test và chỉ có một số chỗ được việt hoá (hãy dùng cẩn thẩn vì chỉ là script test)<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Kiệt lồn<Color=/>"):Display()
     wait(.36)
 end)
 
@@ -2659,8 +2659,8 @@ local Section = W:AddSection({
 
 
 W:AddLabel("PHÁT TRIỂN BỞI")
-W:AddLabel("Khoa SCRIPT sẽ còn nữa ;)")
-W:AddLabel("chỉ là script test thôi")
+W:AddLabel("Khoa SCRIPT")
+W:AddLabel("Cảnh báo ⚠️ :chỉ là script test nên hãy dùng cẩn thận bị ban mình không chịu trách nhiệm")
 local Section = W:AddSection({
     Name = "Status"
 })
